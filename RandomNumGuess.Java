@@ -1,6 +1,13 @@
 //made by Jack Legate
 import java.util.Scanner;
 
+/* 
+ *	Program Asks user to think of a number between 1-10
+ *	Program guesses
+ *	User Inputs either yes or no
+ *	if yes program tells user how many times the program guessed 
+ */
+
 public class RandomNumGuess {
 
 	public static void main(String[] args) {
