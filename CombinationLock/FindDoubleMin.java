@@ -16,13 +16,13 @@ public class FindDoubleMin {
 	}
 	
 	public static double minDouble(double[] arr) {
-		double value = arr[0];
+		double val = arr[0];
 		for(int i = 1;i < arr.length;i++) {
-			if(arr[i] < value) {
-				value = arr[i];
+			if(arr[i] < val) {
+				val = arr[i];
 			}
 		}
-		return value;
+		return val;
 	}
 
 }
